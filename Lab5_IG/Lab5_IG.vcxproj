@@ -142,9 +142,13 @@
     <ClInclude Include="..\lighting_technique.h" />
     <ClInclude Include="..\math_3d.h" />
     <ClInclude Include="..\mesh.h" />
+    <ClInclude Include="..\particle_system.h" />
     <ClInclude Include="..\pipeline.h" />
+    <ClInclude Include="..\ps_update_technique.h" />
+    <ClInclude Include="..\random_texture.h" />
     <ClInclude Include="..\technique.h" />
     <ClInclude Include="..\texture.h" />
+    <ClInclude Include="..\time.h" />
     <ClInclude Include="..\util.h" />
   </ItemGroup>
   <ItemGroup>
@@ -156,7 +160,10 @@
     <ClCompile Include="..\main.cpp" />
     <ClCompile Include="..\math_3d.cpp" />
     <ClCompile Include="..\mesh.cpp" />
+    <ClCompile Include="..\particle_system.cpp" />
     <ClCompile Include="..\pipeline.cpp" />
+    <ClCompile Include="..\ps_update_technique.cpp" />
+    <ClCompile Include="..\random_texture.cpp" />
     <ClCompile Include="..\technique.cpp" />
     <ClCompile Include="..\texture.cpp" />
   </ItemGroup>
